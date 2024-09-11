@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: ;
+}
+
+body {
+    font-family: 'Asap',sans-serif;
+    background-color: #F3E8FF; /* pastel lavender */
+    color: #2C2E43; /* navy blue */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2C2E43; /* navy blue */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.profile-picture img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+header p.intro {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.container {
+    width: 70%; /* Reduced from 90% */
+    max-width: 500px; /* Adjusted max-width */
+    margin: 0 auto;
+}
+
+.about-me, .projects, .contact {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #2C2E43;
+}
+
+footer {
+    background-color: #F3E8FF; /* pastel lavender */
+    text-align: center;
+    padding: 2rem 0;
+    color: #2C2E43; /* navy blue */
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Links */
+a {
+    color: #FF97C1; /* soft pink */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
